@@ -1,8 +1,18 @@
 
+import React from 'react'
+import ContactList from './components/ContactList.jsx'
 import './App.css'
 
-function App() {
+
+
+
+export default function App() {
   
+  return(
+    <>
+    <ContactList/>
+    </>
+  );
 }
 
-export default App
+
